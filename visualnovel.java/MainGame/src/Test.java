@@ -6,19 +6,19 @@ public class Test {
         
         Scanner scanner = new Scanner(System.in);
 
-        String input = scanner.nextLine();
-
         System.out.println("Ass or tits bro?");
         System.out.println("[A] Ass");
         System.out.println("[B] Tits");
 
+        String input = scanner.nextLine();
+
         
-        if (input.equals("A")){
-            System.out.println("I'm more of an ass guy.");
+        if (input.toLowerCase().equals("a")){
+            System.out.println("Bro what? You're so basic.");
         }
 
-        if (input.equals("B")){
-            System.out.println("I prefer tiddies lol");
+        if (input.toLowerCase().equals("b")){
+            System.out.println("ME TOO BROOO!!");
         }
 
     }
