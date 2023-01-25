@@ -21,5 +21,10 @@ public class Test {
             System.out.println("ME TOO BROOO!!");
         }
 
+        if (input.toLowerCase().equals("personality")){
+            System.out.println("Shut yo goofy ass up");
+
+        }
+
     }
 }
