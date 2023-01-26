@@ -12,6 +12,13 @@ public class Test {
 
         String input = scanner.nextLine();
 
+        // This is how u code in delays
+        // The 7000 is in milliseconds.
+        try {
+            Thread.sleep(7000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }  
         
         if (input.toLowerCase().equals("a")){
             System.out.println("Bro what? You're so basic.");
