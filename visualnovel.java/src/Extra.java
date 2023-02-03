@@ -275,7 +275,7 @@ public class Extra {
             e.printStackTrace();
         }
 
-        System.out.println("His low voice echoed through the empty dishleveled room/");
+        System.out.println("His low voice echoed through the empty dishleveled room.");
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
@@ -509,11 +509,38 @@ public class Extra {
 
         System.out.println("Hana never spoke much.");
         try {
-            Thread.sleep(2000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
 
-        
+        System.out.println("Most likely, he'll probably won't even respond to you..");
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("\033[3mSo, uh, Hana...\033[0m");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("\033[3mDid you find anything while scavaging?\033[0m");
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("You ask reluectantly, trying to just sound casual but not random.");
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
         }
 }}
