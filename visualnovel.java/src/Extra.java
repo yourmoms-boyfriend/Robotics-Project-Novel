@@ -535,12 +535,54 @@ public class Extra {
             e.printStackTrace();
         }
 
-        System.out.println("You ask reluectantly, trying to just sound casual but not random.");
+        System.out.println("You ask reluctantly, trying to just sound casual but not random.");
         try {
             Thread.sleep(4000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
+        
+        System.out.println("...");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
         }
+
+        System.out.println("Hana doesn't respond.");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Now it's awkward...for you, at least.");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        
+        System.out.println("\033[3m...Alright. Good talk.\033[0m");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        
+        System.out.println("You say sarcastically. A bit annoyed that Hana ignored you.");
+        try {
+            Thread.sleep(4000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        
+        System.out.println("It probably wasn't on purpose though.");
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        }
+
 }}

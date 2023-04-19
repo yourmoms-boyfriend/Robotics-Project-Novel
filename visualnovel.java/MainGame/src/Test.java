@@ -31,6 +31,8 @@ public class Test {
         if (input.toLowerCase().equals("personality")){
             System.out.println("Shut yo goofy ass up");
 
+            
+
         }
 
     

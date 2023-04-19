@@ -1,25 +1,262 @@
 import java.util.Scanner;
 
 public class Maingame {
-    public static Scanner in = new Scanner(System.in);
-    public static String question;
+    
+    public static void main(String[] args){
 
-    public static void main (String[] args)
-    {
-        question = "0";
-        //Game loop
-        while (true)
-        {
-            //Handles story
-            switch(question) //if question is equal to...
-            {
-            case "0": //...this right here
-                System.out.println("You groaned as you awakened in something.\nWhat is this, a large test tube? The glass was broken and you felt groggy, hungover like you had knocked yourself out with a few drinks the night before.\nYou sit up and slowly climb out of the test tube, careful not cut yourself on the broken glass.\nThe room outside of the tube seemed to be a lab of some sort, but it was messy.\nShattered glass tubes littered the floor along with paper and broken furniture.\nYou look at the large test tube you were lying in.\nThere was a control panel next to it and when you touched it, it flickered to life with a few flashes of white.\nClone ID:B334H6D\nClone ID? What did that mean? The words below it list your name.\nWhat is your name? ");
-                question = "1";
-                break;
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Welcome.");
 
-            
-            }
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("I need to tell you something.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("Unfortunately, you have just died.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("It's nothing to panic about.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("Loads of people die everyday.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("But not every person who has died");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("is as lucky as you.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println(" ");
+
+        System.out.println("Now...");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("Tell me your name.");
+        String input = scanner.nextLine();
+
+        String name = input;
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("Hmmm...so your name is " + name + "?");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println(""+ name + "...");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("It rolls right off the tongue, doesn't it?");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("Well, " + name + " , your name won't matter unless you go back and...");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("change your fate.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("This is your second chance. This time, try not to die.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("...Your body is sore.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("Your eyes open, the bright light from a nearby window blinding you for a few moments.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("\n???: " + name + "! You're finally awake!\n");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("You push yourself up to face whoever was talking to you.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("\n???: Wow, you look \033[3mawful.\033[0m\n");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("It was a man who looked to be in his early 20's.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("He had blonde hair and blue eyes, dawning a military uniform.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("\n???: What's wrong, " + name + "?");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("???: Did you hit your head or something?\n");
+
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        System.out.println("[A] Ask him who he is.\n[B] Act like you already know him.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } 
+
+        if (input.toLowerCase().equals("a")){
+            System.out.println("You ask the man if you knew him.");
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } 
+
+            System.out.println("\n???: "+ name +", are you messing with me\n?");
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } 
+
+            System.out.println("He chuckles breathily, but you stay silent, unsure of how to respond.");
+
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } 
+
+            System.out.println("\n???: Alright, I'll humor you.");
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } 
+
+            System.out.println("William: Soon to be infantryman, William Leandre.\n");
+
+
         }
-    }
-}
+    }}
