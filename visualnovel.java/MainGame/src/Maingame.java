@@ -135,9 +135,11 @@ public class Maingame {
         System.out.println(" ");
         System.out.println(" ");
         System.out.println(" ");
+        System.out.println(" ");
+        System.out.println(" ");
 
         try {
-            Thread.sleep(1000);
+            Thread.sleep(3000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         } 
@@ -214,8 +216,11 @@ public class Maingame {
             e.printStackTrace();
         } 
 
-        System.out.println("[A] Ask him who he is.\n[B] Act like you already know him.");
-
+        System.out.println("[A] Ask him who he is.");
+        System.out.println("[B] Act like you already know him.");
+        
+        input = scanner.nextLine();
+ 
         try {
             Thread.sleep(2000);
         } catch (InterruptedException e) {
@@ -226,7 +231,7 @@ public class Maingame {
             System.out.println("You ask the man if you knew him.");
 
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } 
@@ -234,7 +239,7 @@ public class Maingame {
             System.out.println("\n???: "+ name +", are you messing with me\n?");
 
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } 
@@ -250,13 +255,54 @@ public class Maingame {
             System.out.println("\n???: Alright, I'll humor you.");
 
             try {
-                Thread.sleep(1000);
+                Thread.sleep(2000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             } 
 
             System.out.println("William: Soon to be infantryman, William Leandre.\n");
 
-
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
         }
+
+        if (input.toLowerCase().equals("b")){
+            System.out.println("You smile awkwardly and try to put on your best casual act.");
+
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println("\n???: You've been sleeping all day, man.");
+
+            try {
+                Thread.sleep(1000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println("William: You poor pal William here had to make excuses for you all day.");
+
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            System.out.println("William points to himself, using a dramatic tone in his voice.");
+
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            
+        }
+
+
     }}

@@ -15,7 +15,7 @@ public class Test {
         // This is how u code in delays
         // The 7000 is in milliseconds.
         try {
-            Thread.sleep(7000);
+            Thread.sleep(2000);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }  
