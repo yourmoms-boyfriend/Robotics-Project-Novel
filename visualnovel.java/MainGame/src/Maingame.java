@@ -304,5 +304,29 @@ public class Maingame {
             
         }
 
+        System.out.println("\nWilliam: Anyway, now that you're up, you gotta finish your schedule.\n");
 
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("William nudges you, urging you to get up and into your uniform.");
+
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        System.out.println("Though you felt groggy and sore, you felt compelled to get up.");
+
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        
     }}
